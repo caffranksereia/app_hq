@@ -5,8 +5,7 @@ export default class shoppingCartComponents extends Component {
       <div>
         <div>
           <ul>
-            <ol>Home</ol>
-            <ol>Shopping Cart</ol>
+            <ol>Aqui</ol>
           </ul>
         </div>
       </div>
