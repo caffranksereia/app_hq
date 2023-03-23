@@ -4,11 +4,11 @@ import './_assets/index.css';
 import Home from './features/home/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Page404 from './features/product/pages/Page404/NotFound';
-import ShoppingCard from './features/product/pages/ShoppingCard';
-
+import ShoppingCart from './features/product/pages/ShoppingCart';
+import Profile from './features/product/pages/profile';
 const routers = createBrowserRouter([
   {
-    path: '/',
+    path: '/Home',
     element: <Home />,
   },
   {
@@ -17,7 +17,11 @@ const routers = createBrowserRouter([
   },
   {
     path: '/shoppingCart',
-    element: <ShoppingCard />,
+    element: <ShoppingCart />,
+  },
+  {
+    path: '/profile',
+    element: <Profile />,
   },
 ]);
 
