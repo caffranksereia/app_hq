@@ -1,10 +1,9 @@
 import React from 'react';
-import shoppingCartComponents from '../containers/ShoppingCard-container';
 
-export default function ProductList() {
+export default function ShoppingCart() {
   return (
     <div>
-      <shoppingCartComponents />
+      <h1>Hello world!</h1>
     </div>
   );
 }
